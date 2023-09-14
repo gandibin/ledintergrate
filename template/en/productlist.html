@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>{sort:title}</title>
+<meta name="keywords" content="{sort:keywords}">
+<meta name="description" content="{sort:description}">
+<link rel="stylesheet" href="{pboot:sitedomain}/skin/css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="{pboot:sitedomain}/skin/css/animate.min.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="{pboot:sitedomain}/skin/css/jquery.fancybox.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="{pboot:sitedomain}/skin/css/slick.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="{pboot:sitedomain}/skin/css/style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<style>
+.site a::before {
+	content: '' !important;
+	width: 0 !important;
+}
+/*.site a{*/
+        /*margin: 0;*/
+        /*text-align: center;*/
+        /*line-height: 45px;*/
+    /*}*/
+.header .top .share ul li a {
+	text-align: center;
+	line-height: 45px;
+}
+.header .top .share ul li a img {
+	margin-right: 3px;
+}
+.header-container {
+	position: relative;
+}
+ @media (min-width: 1200px) {
+.header .nav {
+	position: absolute;
+	right: 4%;
+}
+}
+.last-a {
+	padding-right: 0 !important;
+}
+ @media (max-width: 1349px) {
+.header .nav {
+	right: 0;
+}
+}
+</style>
+
+<body>
+{include file=head.html}
+{include file=nybanner.html}
+<div class="wrapper">
+  <div class="wrap wrap-product">
+    <div class="container">
+      <div class="productcontent"> {include file=nav.html}
+        <div class="wrap-right wow fadeInRight" data-wow-duration="1s">
+          <div class="product">
+            <div class="text">
+              <p>{sort:description}</p>
+            </div>
+            <div class="row"> {pboot:list num=6 order=sorting}
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="item"> <a class="img-box" href="[list:link]"><img class="lazy" data-src="[list:ico]" width="790" height="480" title="[list:title]" alt="[list:title]" /></a> <a class="note" href="[list:link]"> <b>[list:title lencn=16]</b>
+                  <p>[list:ext_canshu drophtml=1 lencn=80]</p>
+                  <span>learn  more +</span> </a> </div>
+              </div>
+              {/pboot:list} </div>
+            <!-- 分页 --> 
+            
+            {include file=page.html} </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{include file=foot.html} 

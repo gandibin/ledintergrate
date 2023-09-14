@@ -1,0 +1,61 @@
+<div class="header">
+  <div class="top">
+    <div class="container">
+      <p class="tel">TEL: {pboot:companyphone}</p>
+      <p class="email">Email: {pboot:companyemail}</p>
+      <div class="share">
+        <ul>
+          <li class="site"> <a href="{pboot:lgpath}&lg=cn"><img src="{pboot:sitedomain}/skin/images/vn.jpg" />ch</a> </li>
+          <li class="site"> <a href="{pboot:lgpath}&lg=en"><img src="{pboot:sitedomain}/skin/images/en.jpg" />English</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="top-nav">
+    <div class="container header-container">
+      <div class="logo"> <a href="{pboot:sitedomain}/"><img src="{pboot:sitelogo}" /></a> </div>
+      <button class="nav-collapse nav-collapse-xs" id="nav-btn"> <span class="btn-line"></span> <span class="btn-line"></span> <span class="btn-line"></span> </button>
+      <div class="nav nav-show">
+        <div class="tbl">
+          <div class="tbl-cell">
+            <ul class="nav-list1">
+              <li {pboot:if(0=='{sort:scode}')}class="active"{/pboot:if}> <a href="{pboot:sitedomain}/">HOME</a> </li>
+              {pboot:nav}
+              <li class="{pboot:if('[nav:scode]'=='{sort:tcode}')}active{/pboot:if} {pboot:if([nav:soncount]>0)}more{/pboot:if}"><a href="[nav:link]">[nav:name]</a> {pboot:if([nav:soncount]>0)}
+                <ul class="nav-list2">
+                  {pboot:2nav parent=[nav:scode]}
+                  <li><a href="[2nav:link]">[2nav:name]</a></li>
+                  {/pboot:2nav}
+                </ul>
+                {/pboot:if} </li>
+              {/pboot:nav}
+            </ul>
+          </div>
+        </div>
+        <button class="nav-collapse nav-collapse-1" id="nav-xs-btn"> <span class="btn-line"></span> <span class="btn-line"></span> <span class="btn-line"></span> </button>
+        <div class="nav-2">
+          <div class="nav-top">
+            <div class="back-btn back-btn2"></div>
+            <h2>Frist-degree Menu</h2>
+            <button class="nav-collapse nav-collapse-2" id="nav2-btn"> <span class="btn-line"></span> <span class="btn-line"></span> <span class="btn-line"></span> </button>
+          </div>
+          <div class="content">
+            <ul class="nav2-list2">
+            </ul>
+          </div>
+        </div>
+        <div class="nav-3">
+          <div class="nav-top">
+            <div class="back-btn back-btn3"></div>
+            <h2>Frist-degree Menu</h2>
+            <button class="nav-collapse nav-collapse-2" id="nav2-btn"> <span class="btn-line"></span> <span class="btn-line"></span> <span class="btn-line"></span> </button>
+          </div>
+          <div class="content">
+            <ul class="nav3-list3">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

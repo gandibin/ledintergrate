@@ -1,0 +1,77 @@
+<div class="footer">
+  <div class="container">
+    <div class="link">
+      <div class="title-foot"> <b>links</b> </div>
+      <ul>
+        {pboot:link  gid=1 num=50}
+        <li> <a href="[link:link]" target="_blank">[link:name]</a> </li>
+        {/pboot:link}
+      </ul>
+    </div>
+    <div class="foot">
+      <div class="fleft">
+        <div class="title-foot"> <b>CONTACT US</b> </div>
+        <div class="ftext">
+          <ul>
+            <li>
+              <p class="tel">Tel : {pboot:companyphone}</p>
+            </li>
+            <li>
+              <p class="email">E-mail : <a href="mailto:{pboot:companyemail}">{pboot:companyemail}</a></p>
+            </li>
+            <li>
+              <p class="tel">Phone : {pboot:companymobile}</p>
+            </li>
+            <li>
+              <p class="fax">Fax : {pboot:companyfax}</p>
+            </li>
+            <li>
+              <p class="address">Address : {pboot:companyaddress}</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="fright">
+        <div class="share">
+          <h4 class="text-white">Share: </h4>
+          <ul>
+            <li class="facebook"> <a href="#" title="Share on Facebook" target="_blank">Facebook</a> </li>
+            <li class="linkedin"> <a href="#" target="_blank" title="Share on LinkedIn">Linkedin</a> </li>
+            <li class="twitter"> <a href="#" target="_blank" title="Tweet">Twitter</a> </li>
+            <li class="youtube"> <a href="#" title="" target="_blank">Youtube</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="container">
+      <p>{pboot:sitecopyright} <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">{pboot:siteicp}</a>  <a href="{pboot:sitedomain}/sitemap.xml" target="_blank">XML地图</a> {pboot:sitestatistical} <a href="http://www.ofym.com/" target="_blank">源码下载</a></p>
+    </div>
+  </div>
+</div>
+<div class="loadjs"> 
+  <script src="{pboot:sitedomain}/skin/js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="{pboot:sitedomain}/skin/js/jquery.lazyload.min.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="{pboot:sitedomain}/skin/js/jquery.carousel.min.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="{pboot:sitedomain}/skin/js/jquery.fancybox.min.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="{pboot:sitedomain}/skin/js/wow.min.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="{pboot:sitedomain}/skin/js/slick1.9.js" type="text/javascript" charset="utf-8"></script> 
+  <!-- ie8 bootstrap --> 
+  <script src="{pboot:sitedomain}/skin/js/html5shiv.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="{pboot:sitedomain}/skin/js/jquery.waypoints.all.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="{pboot:sitedomain}/skin/js/respond.min.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="{pboot:sitedomain}/skin/js/sticky-sidebar.js" type="text/javascript" charset="utf-8"></script> 
+  <script>
+        if ($(window).width() > 991) {
+            var a = new StickySidebar('#sidebar', {
+                topSpacing: 80,
+                bottomSpacing: 80,
+                containerSelector: '.container',
+                innerWrapperSelector: '.sidebar__inner',
+            });
+        }
+    </script> 
+  <script src="{pboot:sitedomain}/skin/js/main.js" type="text/javascript" charset="utf-8"></script> 
+</div>
+</body></html>

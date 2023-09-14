@@ -1,0 +1,14 @@
+<div class="wrap-left" id="sidebar">
+  <div class="sidebar__inner">
+    <div class="title-wrap wow fadeInLeft" data-wow-duration="1s"> <b>{sort:topname}</b> </div>
+    <ul class="wow fadeInLeft" data-wow-duration="1s">
+      {pboot:nav num=10 parent={sort:tcode}}
+      {pboot:if('[nav:scode]'=='{sort:scode}')}
+      <li class="active"><a href="[nav:link]">[nav:name]</a></li>
+      {else}
+      <li><a href="[nav:link]">[nav:name]</a></li>
+      {/pboot:if}
+      {/pboot:nav}
+    </ul>
+  </div>
+</div>

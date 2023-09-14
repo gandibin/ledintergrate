@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>{pboot:sitetitle}</title>
+<meta name="keywords" content="{pboot:sitekeywords}">
+<meta name="description" content="{pboot:sitedescription}">
+<link rel="stylesheet" href="{pboot:sitedomain}/skin/css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="{pboot:sitedomain}/skin/css/animate.min.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="{pboot:sitedomain}/skin/css/jquery.fancybox.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="{pboot:sitedomain}/skin/css/slick.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="{pboot:sitedomain}/skin/css/style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<style>
+.site a::before {
+	content: '' !important;
+	width: 0 !important;
+}
+/*.site a{*/
+        /*margin: 0;*/
+        /*text-align: center;*/
+        /*line-height: 45px;*/
+    /*}*/
+.header .top .share ul li a {
+	text-align: center;
+	line-height: 45px;
+}
+.header .top .share ul li a img {
+	margin-right: 3px;
+}
+.header-container {
+	position: relative;
+}
+ @media (min-width: 1200px) {
+.header .nav {
+	position: absolute;
+	right: 4%;
+}
+}
+.last-a {
+	padding-right: 0 !important;
+}
+ @media (max-width: 1349px) {
+.header .nav {
+	right: 0;
+}
+}
+</style>
+
+<body>
+{include file=head.html}
+<div class="banner" id="banner">
+  <div class="slickbanner">
+    {pboot:slide gid=2 num=6}
+    <div class="item">
+      <div class="img-box"><img src="[slide:src]" title="" alt="" /></div>
+    </div>
+    {/pboot:slide}
+  </div>
+</div>
+<div class="content">
+  <div class="box-list">
+    <div class="container">
+      <div class="list">
+        <ul>
+          {pboot:sort scode=14}
+          <li>
+            <div class="item item-product wow fadeInUpBig" data-wow-duration=".6s" data-wow-delay="0s"> <b>PRODUCT</b>
+              <p><a href="[sort:link]">Woodworking machinery, CNC rotary cutting board integrated machine, CNC non card rotary cutting machine, non card rotary cutting machine, wood rounding machine, wood feeding machine.</a></p>
+              <a class="more" href="[sort:link]">learn  more +</a> </div>
+          </li>
+          {/pboot:sort}
+          
+          {pboot:sort scode=12}
+          <li>
+            <div class="item item-quality wow fadeInUpBig" data-wow-duration=".6s" data-wow-delay="0.3s"> <b>QUALITY</b>
+              <p><a href="[sort:link]">The company has a complete and scientific quality management system. It is one of the largest manufacturers of large-scale woodworking rotary cutting machines in China.</a></p>
+              <a class="more" href="[sort:link]">learn  more +</a> </div>
+          </li>
+          {/pboot:sort}
+          
+          {pboot:sort scode=17}
+          <li>
+            <div class="item item-service wow fadeInUpBig" data-wow-duration=".6s" data-wow-delay="0.6s"> <b>SERVICE</b>
+              <p><a href="[sort:link]">The factory is "strict management, quality with the world; meticulous manufacturing, innovation and leadership, and strive for customer satisfaction" for the purpose of providing quality services to our customers.</a></p>
+              <a class="more" href="[sort:link]">learn  more +</a> </div>
+          </li>
+          {/pboot:sort}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="box box-product">
+    <div class="container">
+      <div class="title-product wow fadeInUp" data-wow-duration=".8s"> <b>Product Range</b>
+        <p>Rotary cutting machine, CNC rotary cutting machine, CNC cardless rotary cutting machine, cardless rotary cutting machine</p>
+      </div>
+      <div class="product wow fadeInUp" data-wow-duration=".8s">
+        <ul>
+          {pboot:list scode=14 num=4 order=sorting}
+          <li>
+            <div class="item"> <a class="img-box" href="[list:link]"><img class="lazy" data-src="[list:ico]" width="790" height="480" title="[list:title]" alt="[list:title]" /></a> <a class="note" href="[list:link]"> <b>[list:title lencn=16]</b>
+              <p>[list:ext_canshu drophtml=1 lencn=80]</p>
+              <span>learn  more +</span> </a> </div>
+          </li>
+          {/pboot:list}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="box box-about">
+    <div class="container">
+      <div class="title-about wow fadeInUp" data-wow-duration=".8s"> <b>about us</b> </div>
+      {pboot:content scode=12}
+      <div class="about wow fadeInUp" data-wow-duration=".8s">
+        <p>[content:content drophtml=1 lencn=280]</p>
+      </div>
+      <div class="more wow fadeInUp" data-wow-duration=".8s"> <a href="[content:link]">Learn more +</a> </div>
+      {/pboot:content} </div>
+  </div>
+  <div class="box box-news">
+    <div class="container">
+      <div class="title-news wow fadeInUp" data-wow-duration=".8s"> <b>news center</b> </div>
+      <div class="news">
+        <div class="row"> {pboot:list scode=13 num=4 order=sorting}
+          <div class="col-xs-6 col-md-3 list wow fadeInUp" data-wow-duration=".8s">
+            <div class="item"> <b><a href="[list:link]">[list:title lencn=30]</a></b>
+              <div class="pic"> <a class="img-box" href="[list:link]"><img class="lazy" data-src="[list:ico]" width="340" height="150" title="[list:title]" alt="[list:title]" /></a>
+                <div class="date">
+                  <h3>[list:date style=M]</h3>
+                  <span>[list:date style=d,Y]</span> </div>
+              </div>
+              <p><a href="[list:link]">[list:description lencn=100]</a></p>
+            </div>
+          </div>
+          {/pboot:list} </div>
+      </div>
+    </div>
+  </div>
+</div>
+{include file=foot.html} 
