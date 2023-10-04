@@ -19,7 +19,7 @@ return array(
                           
         // 'dbname' => 'pbootcms' // 去掉注释，启用mysql数据库，注意修改前面的连接信息及type为mysqli
         
-        'dbname' => '/data/bb3db0b6ceab193b4199ec4023579667.db' // 去掉注释，启用Sqlite数据库，注意修改type为sqlite
+        'dbname' => '/data/xindatabase687.db' // 去掉注释，启用Sqlite数据库，注意修改type为sqlite
     )
 
 );
