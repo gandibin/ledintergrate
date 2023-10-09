@@ -9,7 +9,7 @@ Target Server Type    : SQLite
 Target Server Version : 30714
 File Encoding         : 65001
 
-Date: 2023-10-09 14:01:21
+Date: 2023-10-09 14:04:15
 */
 
 PRAGMA foreign_keys = OFF;
@@ -465,6 +465,7 @@ INSERT INTO "main"."ay_content" VALUES (3381, 'vn', 73, '', 'Máy cắt quay CNC
 INSERT INTO "main"."ay_content" VALUES (3382, 'vn', 73, '', 'Máy cắt quay CNC 19DJX-140', '#333333', '', '', 'admin', '本站', '', '2019-11-06 11:37:29', '/static/upload/image/20191106/1573011514917242.jpg', '', '&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/static/upload/image/20191106/1573011509182584.jpg&quot; style=&quot;&quot; title=&quot;1573011509182584.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/static/upload/image/20191106/1573011509872324.jpg&quot; style=&quot;&quot; title=&quot;1573011509872324.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;', '', '', '', '', 255, 1, 0, 0, 0, 2, 0, 0, 'admin', 'admin', '2019-11-06 11:38:36', '2019-11-06 11:38:36', 4, '', '', '');
 INSERT INTO "main"."ay_content" VALUES (3383, 'en', 14, '', '2-19DJX-140 CNC Rotary Cutting Board Machine', '#333333', '', '', 'admin', '本站', '', '2019-11-06 11:11:38', '/static/upload/image/20191106/1573009958822914.jpg', '', '&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/static/upload/image/20191106/1573009953936809.jpg&quot; style=&quot;&quot; title=&quot;1573009953936809.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/static/upload/image/20191106/1573009954192309.jpg&quot; style=&quot;&quot; title=&quot;1573009954192309.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;', '', '', '', '', 255, 1, 0, 0, 0, 2, 0, 0, 'admin', 'admin', '2019-11-06 11:12:39', ' 2023-10-04 15:22:42', 4, 0, '', '');
 INSERT INTO "main"."ay_content" VALUES (3384, 'en', 14, '', '测试添加的标题', '#333333', '', '', '测试添加的产品页的作者', '本站', '', '2023-10-04 15:23:07', '', '', '&lt;p&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;测试添加的产品页的内容&lt;/span&gt;&lt;/p&gt;', '', '', '', '测试添加的产品页的内容', 255, 1, 0, 0, 0, 1, 0, 0, 'admin', 'admin', '2023-10-04 15:35:11', '2023-10-04 15:35:11', 4, 0, '', '');
+INSERT INTO "main"."ay_content" VALUES (3385, 'en', 161, '', '测试添加的标题', '#333333', '', '', '测试添加的产品页的作者', '本站', '', '2023-10-04 15:23:07', '', '', '&lt;p&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;测试添加的产品页的内容&lt;/span&gt;&lt;/p&gt;', '', '', '', '测试添加的产品页的内容', 255, 1, 0, 0, 0, 1, 0, 0, 'admin', 'admin', '2023-10-04 15:35:11', '2023-10-04 15:35:11', 4, 0, '', '');
 
 -- ----------------------------
 -- Table structure for ay_content_ext
@@ -500,6 +501,7 @@ INSERT INTO "main"."ay_content_ext" VALUES (841, 3358, null, null, null, null, n
 INSERT INTO "main"."ay_content_ext" VALUES (842, 3356, null, null, null, null, null, null, null, null, null, null, '&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; line-height: 1.875; color: rgb(102, 102, 102); font-family: Arial, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Heiti SC&amp;quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;输入电压：&lt;/span&gt;24V&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; line-height: 1.875; color: rgb(102, 102, 102); font-family: Arial, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Heiti SC&amp;quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;输出电压：&lt;/span&gt;220V&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; line-height: 1.875; color: rgb(102, 102, 102); font-family: Arial, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Heiti SC&amp;quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;欠压保护&lt;/span&gt;：18V&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; line-height: 1.875; color: rgb(102, 102, 102); font-family: Arial, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Heiti SC&amp;quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;波形：&lt;/span&gt;工频纯正弦波&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; line-height: 1.875; color: rgb(102, 102, 102); font-family: Arial, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Heiti SC&amp;quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;正常使用功率：&lt;/span&gt;300W&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; line-height: 1.875; color: rgb(102, 102, 102); font-family: Arial, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Heiti SC&amp;quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;瞬间最大功率：&lt;/span&gt;500W&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; line-height: 1.875; color: rgb(102, 102, 102); font-family: Arial, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Heiti SC&amp;quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;尺寸：&lt;/span&gt;24.5*15.5*9&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; line-height: 1.875; color: rgb(102, 102, 102); font-family: Arial, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Heiti SC&amp;quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;重量：&lt;/span&gt;2.5kg&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;');
 INSERT INTO "main"."ay_content_ext" VALUES (843, 3383, '', '', '', '', '', '', '', '', '', '', '&lt;p&gt;Rotary cut wood length: 1350mm&lt;/p&gt;&lt;p&gt;Rotary cutting wood thickness: 0.3-3.6mm&lt;/p&gt;&lt;p&gt;Remaining small shaft diameter: 25mm&lt;/p&gt;&lt;p&gt;Friction roller diameter: 126mm&lt;/p&gt;&lt;p&gt;Maximum opening: 400/500/600mm&lt;/p&gt;&lt;p&gt;Rotating speed: 52m/min&lt;/p&gt;&lt;p&gt;Total power: 28.5kw&lt;/p&gt;&lt;p&gt;Rated voltage: 380v&lt;/p&gt;&lt;p&gt;Rotary cutter size: 1400x130/180x12.7mm (length x width x thickness)&lt;/p&gt;&lt;p&gt;Dimensions: 3800x2100x1200mm (length x width x height)&lt;/p&gt;');
 INSERT INTO "main"."ay_content_ext" VALUES (844, 3384, null, null, null, null, null, null, null, null, null, null, '&lt;p&gt;测试添加的产品页的参数&lt;br/&gt;&lt;/p&gt;');
+INSERT INTO "main"."ay_content_ext" VALUES (845, 3385, '', '', '', '', '', '', '', '', '', '', '&lt;p&gt;测试添加的产品页的参数&lt;br/&gt;&lt;/p&gt;');
 
 -- ----------------------------
 -- Table structure for ay_content_sort
@@ -1304,6 +1306,7 @@ INSERT INTO "main"."ay_syslog" VALUES (4816, 'info', '清理缓存成功！', 21
 INSERT INTO "main"."ay_syslog" VALUES (4817, 'info', '新增文章成功！', 2130706433, 'Windows 10', 'Chrome', 'admin', '2023-10-04 15:35:11');
 INSERT INTO "main"."ay_syslog" VALUES (4818, 'info', '登录失败!', 2130706433, 'Windows 10', 'Chrome', '', '2023-10-09 13:45:31');
 INSERT INTO "main"."ay_syslog" VALUES (4819, 'info', '登录成功!', 2130706433, 'Windows 10', 'Chrome', 'admin', '2023-10-09 13:45:38');
+INSERT INTO "main"."ay_syslog" VALUES (4820, 'info', '复制内容成功！', 2130706433, 'Windows 10', 'Chrome', 'admin', '2023-10-09 14:03:46');
 
 -- ----------------------------
 -- Table structure for ay_tags
@@ -1401,8 +1404,8 @@ CREATE TABLE sqlite_sequence(name,seq);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_area', 11);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_company', 8);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_config', 53);
-INSERT INTO "main"."sqlite_sequence" VALUES ('ay_content', 3384);
-INSERT INTO "main"."sqlite_sequence" VALUES ('ay_content_ext', 844);
+INSERT INTO "main"."sqlite_sequence" VALUES ('ay_content', 3385);
+INSERT INTO "main"."sqlite_sequence" VALUES ('ay_content_ext', 845);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_content_sort', 184);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_extfield', 12);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_form', 6);
@@ -1420,7 +1423,7 @@ INSERT INTO "main"."sqlite_sequence" VALUES ('ay_slide', 23);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_type', 5);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_user', 3);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_user_role', 3);
-INSERT INTO "main"."sqlite_sequence" VALUES ('ay_syslog', 4819);
+INSERT INTO "main"."sqlite_sequence" VALUES ('ay_syslog', 4820);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_member_group', 3);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_member_field', 3);
 INSERT INTO "main"."sqlite_sequence" VALUES ('ay_link', 8);
