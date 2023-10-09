@@ -81,38 +81,38 @@ class ContentController extends Controller
         if ($_POST) {
             
             // 获取数据
-            $scode = post('scode');
-            $subscode = post('subscode');
-            $title = post('title');
-            $titlecolor = post('titlecolor');
-            $subtitle = post('subtitle');
-            $filename = trim(post('filename'), '/');
-            $author = post('author');
-            $source = post('source');
-            $outlink = post('outlink');
-            $date = post('date');
-            $ico = post('ico');
-            $pics = post('pics');
+            $scode = post('scode');//栏目
+            $subscode = post('subscode');//内容副栏目(高级内容里面)
+            $title = post('title');//标题()
+            $titlecolor = post('titlecolor');//标题颜色
+            $subtitle = post('subtitle');//副标题
+            $filename = trim(post('filename'), '/');//URL名称
+            $author = post('author');//作者(默认)
+            $source = post('source');//来源
+            $outlink = post('outlink');//跳转外连接
+            $date = post('date');//发布日期
+            $ico = post('ico');//缩略图
+            $pics = post('pics');//轮播图
             
             // 获取多图标题
-            $picstitle = post('picstitle');
+            $picstitle = post('picstitle');//图片标题
             if ($picstitle) {
                 $picstitle = implode(',', $picstitle);
             }
             
-            $content = post('content');
-            $tags = str_replace('，', ',', post('tags'));
-            $enclosure = post('enclosure');
-            $keywords = post('keywords');
-            $description = post('description');
-            $status = post('status', 'int');
-            $istop = post('istop', 'int', '', '', 0);
-            $isrecommend = post('isrecommend', 'int', '', '', 0);
-            $isheadline = post('isheadline', 'int', '', '', 0);
+            $content = post('content');//内容
+            $tags = str_replace('，', ',', post('tags'));//标签
+            $enclosure = post('enclosure');//附件
+            $keywords = post('keywords');//关键字
+            $description = post('description');//SEO描述
+            $status = post('status', 'int');//状态
+            $istop = post('istop', 'int', '', '', 0);//是否置顶
+            $isrecommend = post('isrecommend', 'int', '', '', 0);//是否推荐
+            $isheadline = post('isheadline', 'int', '', '', 0);//是否头条
             
-            $gid = post('gid', 'int') ?: 0;
-            $gtype = post('gtype', 'int') ?: 4;
-            $gnote = post('gnote');
+            $gid = post('gid', 'int') ?: 0;//浏览权限
+            $gtype = post('gtype', 'int') ?: 4;//权限类型
+            $gnote = post('gnote');//权限不足提示
             
             if (! $scode) {
                 alert_back('内容分类不能为空！');
