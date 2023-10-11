@@ -10,7 +10,7 @@
  Target Server Version : 3030001
  File Encoding         : 65001
 
- Date: 11/10/2023 14:35:22
+ Date: 11/10/2023 14:38:47
 */
 
 PRAGMA foreign_keys = false;
@@ -471,6 +471,7 @@ INSERT INTO "ay_content" VALUES (3382, 'vn', '73', '', 'Máy cắt quay CNC 19DJ
 INSERT INTO "ay_content" VALUES (3383, 'en', '14', '', '2-19DJX-140 CNC Rotary Cutting Board Machine', '#333333', '', '', 'admin', '本站', '', '2019-11-06 11:11:38', '/static/upload/image/20191106/1573009958822914.jpg', '', '&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/static/upload/image/20191106/1573009953936809.jpg&quot; style=&quot;&quot; title=&quot;1573009953936809.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/static/upload/image/20191106/1573009954192309.jpg&quot; style=&quot;&quot; title=&quot;1573009954192309.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;', '', '', '', '', 255, '1', '0', '0', '0', 2, 0, 0, 'admin', 'admin', '2019-11-06 11:12:39', ' 2023-10-04 15:22:42', '4', '0', '', '');
 INSERT INTO "ay_content" VALUES (3384, 'en', '14', '', '测试添加的标题', '#333333', '', '', '测试添加的产品页的作者', '本站', '', '2023-10-04 15:23:07', '', '', '&lt;p&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;测试添加的产品页的内容&lt;/span&gt;&lt;/p&gt;', '', '', '', '测试添加的产品页的内容', 255, '1', '0', '0', '0', 1, 0, 0, 'admin', 'admin', '2023-10-04 15:35:11', '2023-10-04 15:35:11', '4', '0', '', '');
 INSERT INTO "ay_content" VALUES (3385, 'en', '161', '', '测试添加的标题', '#333333', '', '', '测试添加的产品页的作者', '本站', '', '2023-10-04 15:23:07', '', '', '&lt;p&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;测试添加的产品页的内容&lt;/span&gt;&lt;/p&gt;', '', '', '', '测试添加的产品页的内容', 255, '1', '0', '0', '0', 1, 0, 0, 'admin', 'admin', '2023-10-04 15:35:11', '2023-10-04 15:35:11', '4', '0', '', '');
+INSERT INTO "ay_content" VALUES (3386, 'en', '14', '', '测试产品2`', '#333333', '', '', 'admin', '本站', '', '2023-10-11 14:31:57', '/static/upload/image/20231011/1697006182644988.jpg', '/static/upload/image/20231011/1697006193899464.jpg,/static/upload/image/20231011/1697006200223440.jpg,/static/upload/image/20231011/1697006213453081.jpg', '&lt;p&gt;内容第一:xxxx&lt;/p&gt;&lt;p&gt;内容第二:xxxx&lt;/p&gt;&lt;p&gt;内容第三:xxx&lt;/p&gt;', 'mytag1,mytag2,mytag,3', '', '', '内容第一:xxxx内容第二:xxxx内容第三:xxx', 255, '1', '1', '1', '1', 2, 0, 0, 'admin', 'admin', '2023-10-11 14:37:42', '2023-10-11 14:37:42', '4', '0', '', 'indoorpic1,indoorpic2,indoorp3');
 
 -- ----------------------------
 -- Table structure for ay_content_ext
@@ -515,6 +516,7 @@ INSERT INTO "ay_content_ext" VALUES (842, 3356, NULL, NULL, NULL, NULL, NULL, NU
 INSERT INTO "ay_content_ext" VALUES (843, 3383, '', '', '', '', '', '', '', '', '', '', '&lt;p&gt;Rotary cut wood length: 1350mm&lt;/p&gt;&lt;p&gt;Rotary cutting wood thickness: 0.3-3.6mm&lt;/p&gt;&lt;p&gt;Remaining small shaft diameter: 25mm&lt;/p&gt;&lt;p&gt;Friction roller diameter: 126mm&lt;/p&gt;&lt;p&gt;Maximum opening: 400/500/600mm&lt;/p&gt;&lt;p&gt;Rotating speed: 52m/min&lt;/p&gt;&lt;p&gt;Total power: 28.5kw&lt;/p&gt;&lt;p&gt;Rated voltage: 380v&lt;/p&gt;&lt;p&gt;Rotary cutter size: 1400x130/180x12.7mm (length x width x thickness)&lt;/p&gt;&lt;p&gt;Dimensions: 3800x2100x1200mm (length x width x height)&lt;/p&gt;');
 INSERT INTO "ay_content_ext" VALUES (844, 3384, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '&lt;p&gt;测试添加的产品页的参数&lt;br/&gt;&lt;/p&gt;');
 INSERT INTO "ay_content_ext" VALUES (845, 3385, '', '', '', '', '', '', '', '', '', '', '&lt;p&gt;测试添加的产品页的参数&lt;br/&gt;&lt;/p&gt;');
+INSERT INTO "ay_content_ext" VALUES (846, 3386, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '&lt;p&gt;参数1:xxxx&lt;/p&gt;&lt;p&gt;参数2:xxxx&lt;/p&gt;&lt;p&gt;参数3:333&lt;/p&gt;');
 
 -- ----------------------------
 -- Table structure for ay_content_sort
@@ -1348,6 +1350,7 @@ INSERT INTO "ay_syslog" VALUES (4820, 'info', '复制内容成功！', '21307064
 INSERT INTO "ay_syslog" VALUES (4821, 'info', '登录成功!', '2130706433', 'Mac', 'Chrome', 'admin', '2023-10-09 15:35:14');
 INSERT INTO "ay_syslog" VALUES (4822, 'info', '登录成功!', '2130706433', 'Windows 10', 'Chrome', 'admin', '2023-10-09 21:26:34');
 INSERT INTO "ay_syslog" VALUES (4823, 'info', '登录成功!', '2130706433', 'Windows 10', 'Chrome', 'admin', '2023-10-11 14:31:16');
+INSERT INTO "ay_syslog" VALUES (4824, 'info', '新增文章成功！', '2130706433', 'Windows 10', 'Chrome', 'admin', '2023-10-11 14:37:42');
 
 -- ----------------------------
 -- Table structure for ay_tags
@@ -1448,8 +1451,8 @@ CREATE TABLE "sqlite_sequence" (
 INSERT INTO "sqlite_sequence" VALUES ('ay_area', 11);
 INSERT INTO "sqlite_sequence" VALUES ('ay_company', 8);
 INSERT INTO "sqlite_sequence" VALUES ('ay_config', 53);
-INSERT INTO "sqlite_sequence" VALUES ('ay_content', 3385);
-INSERT INTO "sqlite_sequence" VALUES ('ay_content_ext', 845);
+INSERT INTO "sqlite_sequence" VALUES ('ay_content', 3386);
+INSERT INTO "sqlite_sequence" VALUES ('ay_content_ext', 846);
 INSERT INTO "sqlite_sequence" VALUES ('ay_content_sort', 184);
 INSERT INTO "sqlite_sequence" VALUES ('ay_extfield', 12);
 INSERT INTO "sqlite_sequence" VALUES ('ay_form', 6);
@@ -1467,7 +1470,7 @@ INSERT INTO "sqlite_sequence" VALUES ('ay_slide', 23);
 INSERT INTO "sqlite_sequence" VALUES ('ay_type', 5);
 INSERT INTO "sqlite_sequence" VALUES ('ay_user', 3);
 INSERT INTO "sqlite_sequence" VALUES ('ay_user_role', 3);
-INSERT INTO "sqlite_sequence" VALUES ('ay_syslog', 4823);
+INSERT INTO "sqlite_sequence" VALUES ('ay_syslog', 4824);
 INSERT INTO "sqlite_sequence" VALUES ('ay_member_group', 3);
 INSERT INTO "sqlite_sequence" VALUES ('ay_member_field', 3);
 INSERT INTO "sqlite_sequence" VALUES ('ay_link', 8);
@@ -1510,7 +1513,7 @@ UPDATE "sqlite_sequence" SET seq = 53 WHERE name = 'ay_config';
 -- ----------------------------
 -- Auto increment value for ay_content
 -- ----------------------------
-UPDATE "sqlite_sequence" SET seq = 3385 WHERE name = 'ay_content';
+UPDATE "sqlite_sequence" SET seq = 3386 WHERE name = 'ay_content';
 
 -- ----------------------------
 -- Indexes structure for table ay_content
@@ -1531,7 +1534,7 @@ ON "ay_content" (
 -- ----------------------------
 -- Auto increment value for ay_content_ext
 -- ----------------------------
-UPDATE "sqlite_sequence" SET seq = 845 WHERE name = 'ay_content_ext';
+UPDATE "sqlite_sequence" SET seq = 846 WHERE name = 'ay_content_ext';
 
 -- ----------------------------
 -- Indexes structure for table ay_content_ext
@@ -1837,7 +1840,7 @@ ON "ay_slide" (
 -- ----------------------------
 -- Auto increment value for ay_syslog
 -- ----------------------------
-UPDATE "sqlite_sequence" SET seq = 4823 WHERE name = 'ay_syslog';
+UPDATE "sqlite_sequence" SET seq = 4824 WHERE name = 'ay_syslog';
 
 -- ----------------------------
 -- Indexes structure for table ay_tags
